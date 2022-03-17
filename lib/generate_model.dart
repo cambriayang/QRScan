@@ -1,10 +1,9 @@
 import 'dart:convert';
-import 'dart:developer';
 import 'dart:io';
 import 'package:path/path.dart' as path;
 
 const pTag = "\$";
-const srcJson = "./jsons/"; //json folder
+const srcJson = "./lib/jsons/"; //json folder
 const dstModels = "./lib/models/"; //the output folder
 
 void walk() {
