@@ -1,3 +1,5 @@
+#!/bin/bash
+
 pwd
 flutter pub run build_runner clean
 dart ./lib/generate_model.dart
